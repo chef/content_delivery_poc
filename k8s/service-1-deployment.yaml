@@ -20,4 +20,4 @@ spec:
       tolerations:
         - key: "taint"
           value: "test"
-          effect: "PrefereNoSchedule"
+          effect: "PreferNoSchedule"
