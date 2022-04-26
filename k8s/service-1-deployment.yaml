@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: service-1-deployment
+spec: 
+  replicas: 1
+  selector: 
+    matchLabels: 
+      components: service-1
+  template:
+    matadate: 
+      labels: 
+      components: service-1
+  spec:
+    containers:
+      - name: service-1
+        image: abime/service-1
+        ports: 
+          - containerPort: 8081
