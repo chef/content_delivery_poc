@@ -17,3 +17,7 @@ spec:
           image: abime/service-1
           ports: 
             - containerPort: 8081
+      tolerations:
+        - key: "taint"
+          value: "test"
+          effect: "PrefereNoSchedule"
