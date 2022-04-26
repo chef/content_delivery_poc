@@ -8,12 +8,12 @@ spec:
     matchLabels: 
       components: service-1
   template:
-    matadate: 
+    metadata: 
       labels: 
       components: service-1
-  spec:
-    containers:
-      - name: service-1
-        image: abime/service-1
-        ports: 
-          - containerPort: 8081
+    spec:
+      containers:
+        - name: service-1
+          image: abime/service-1
+          ports: 
+            - containerPort: 8081

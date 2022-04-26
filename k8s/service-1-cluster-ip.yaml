@@ -5,7 +5,7 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    conponent: service-1
+    component: service-1
   ports:
     port: 8080
     targetPort: 8081 
