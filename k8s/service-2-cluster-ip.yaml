@@ -8,5 +8,5 @@ spec:
     component: service-2
   ports:
   - name: cluster-port
-    port: 80802
+    port: 8080
     targetPort: 8082
