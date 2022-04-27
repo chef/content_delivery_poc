@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: service-2-deployment
+spec: 
+  replicas: 1
+  selector: 
+    matchLabels: 
+      components: service-2
+  template:
+    metadata: 
+      labels: 
+        components: service-2
+    spec:
+      containers:
+        - name: service-2
+          image: abime/poc-service-2
+          ports: 
+            - containerPort: 8082
+      tolerations:
+        - key: "taint"
+          value: "test"
+          effect: "PreferNoSchedule"
