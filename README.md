@@ -1,3 +1,9 @@
+# Archived Repository
+
+This repository has been archived and will no longer receive updates. 
+It was archived as part of the [Repository Standardization Initiative](https://github.com/chef-boneyard/oss-repo-standardization-2025).
+If you are a Chef customer and need support for this repository, please contact your Chef account team
+
 # Go-Gin-with-Docker-Compose
 This is a sample application with 2 microservices written in the GoLang Gin framework along with docker compose
 
